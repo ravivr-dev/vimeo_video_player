@@ -191,7 +191,7 @@ class VimeoVideoPlayer extends StatelessWidget {
 
   /// Builds the iframe URL
   String _buildIframeUrl() {
-    return 'https://player.vimeo.com/video/$videoId?'
+    return '$videoId'
         'autoplay=$isAutoPlay'
         '&loop=$isLooping'
         '&muted=$isMuted'
